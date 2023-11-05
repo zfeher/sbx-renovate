@@ -27,7 +27,7 @@ devDependencies:
     specifier: ^0.10.0
     version: 0.10.0
   '@storybook/testing-library':
-    specifier: ^0.2.0
+    specifier: ^0.2.2
     version: 0.2.2
   rimraf:
     specifier: 4.3.1
