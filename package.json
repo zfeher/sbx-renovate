@@ -15,5 +15,6 @@
   },
   "packageManager": "pnpm@8.10.2",
   "devDependencies": {
+    "rimraf": "4.3.1"
   }
 }
