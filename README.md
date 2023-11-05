@@ -1,0 +1,2 @@
+# sbx-renovate
+renovate sandbox
