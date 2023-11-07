@@ -15,6 +15,7 @@
   "major": {
     "minimumReleaseAge": "30 days",
     "dependencyDashboardApproval": true,
+    "addLabels": ["major"],
     "automerge": false
   },
 
@@ -31,6 +32,13 @@
       "matchDatasources": ["npm"],
       "matchPackageNames": ["@types/node"],
       "allowedVersions": "20.x"
+    },
+
+    {
+      "extends": ["monorepo:storybook"],
+      "matchUpdateTypes": ["minor", "patch", "digest"],
+      "addLabels": ["safe"],
+      "automerge": false
     }
   ]
 }
